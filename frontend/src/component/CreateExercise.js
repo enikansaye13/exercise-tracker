@@ -64,7 +64,7 @@ export default class CreateExercise extends Component {
     e.preventDefault();
 
     const exercise = {
-      username: this.state.username,
+      username: this.state.counter + 1,
       description: this.state.description,
       duration: this.state.duration,
       date: this.state.date
